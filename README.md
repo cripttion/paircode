@@ -2,12 +2,14 @@
 
 A simplified real-time pair programming environment allowing users to create rooms, share code in real-time, and receive mocked AI autocomplete suggestions.
 
+## working sample video link : https://www.loom.com/share/c21c6e573c1748a4b0cf4bb2b8002eec
+
 ## 🚀 How to Run
 
 ### Prerequisites
 - Node.js (v16+)
 - Python (v3.8+)
-- PostgreSQL (Optional, defaults to my neondb)
+- PostgreSQL (Optional, defaults to sqllite database)
 
 ### 1. Backend Setup
 The backend is built with FastAPI and handles WebSocket connections for real-time syncing.
